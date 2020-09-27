@@ -1,0 +1,103 @@
+:root {
+  --black: #000;
+  --almost-black: #2e2e2e;
+  --almost-white: #fafafa;
+  --gray: #e0e0e0;
+  --blue-saber: #038be5;
+  --green-saber: #00c851;
+  --red-saber: #ff4444;
+  --light-gold: #ffbb33;
+  --dark-gold: #ff8800;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  background-image: url("./images/star-wars-backgrounds.png");
+}
+h1,
+h3 {
+  color: var(--almost-white);
+  text-align: center;
+}
+.btn {
+  border-radius: 0;
+  background-color: var(--black);
+}
+#versus-png {
+  display: block;
+  margin: 0 auto;
+}
+#center-piece {
+  height: 40px;
+  width: 40px;
+}
+#versus-board {
+  height: 410px;
+  width: 100%;
+  color: var(--almost-white);
+  margin-top: -1rem;
+}
+#fighters-to-choose {
+  width: 95%;
+  margin: -1rem auto 0 auto;
+}
+#player-1image,
+#player-2image {
+  width: 85%;
+  margin: 0 auto;
+}
+.middle-center-piece {
+  height: 30px;
+  width: 90%;
+  background: linear-gradient(90deg, #ff8800 50%, #e0e0e0);
+  margin: auto;
+  position: absolute;
+}
+.fighter-button {
+  color: var(--almost-white);
+  border: 1px solid var(--almost-white);
+  width: 10rem;
+}
+.fighter-img {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+#player2-bar,
+#player1-bar {
+  height: 15px;
+}
+#player1-bar {
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  margin-left: 1rem;
+}
+#player2-bar {
+  border-top-left-radius: 25%;
+  border-bottom-left-radius: 25%;
+  margin-right: 1rem;
+}
+#versus {
+  font-size: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#choose-title {
+  margin-bottom: 1rem;
+}
+#game-over-btn {
+  color: var(--almost-white);
+  border: 1px solid var(--almost-white);
+  width: 10rem;
+}
